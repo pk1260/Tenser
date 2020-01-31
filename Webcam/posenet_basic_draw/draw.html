@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Draw Posenet</title>
+  <link rel="stylesheet" href="css/draw.css">
+
+</head>
+<body>
+  <div id = "textHere">---</div>
+  <!-- alternative load libraries external -->
+  <!-- <script src='https://unpkg.com/zdog@1/dist/zdog.dist.min.js'></script>   -->
+
+  <script src="js/movingAverage.js"></script>
+
+  <canvas id="canvas1"></canvas>
+  <canvas id="canvas2"></canvas><!--      posenet canvas 2     -->
+  <video id="video" style="display:none;"></video>
+  <script src="js/draw.js"></script>
+  <!-- alternative load libraries external -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+    -->
+  <script src="tensorflow/tensorflow_tfjs.js"></script>
+  <script src="tensorflow/tensorflow_posenet.js"></script>
+  <script  src="js/posenet.js"></script>
+
+
+</body>
+</html>

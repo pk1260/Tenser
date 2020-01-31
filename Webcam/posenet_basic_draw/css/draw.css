@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+}
+
+canvas{
+  border-radius: 120px;
+  margin: 5px;
+  z-index: -1;
+}
+
+/* canvas2 is posenet canvas */
+#canvas2{
+  position:absolute;
+  top:0;
+  left:0;
+}
